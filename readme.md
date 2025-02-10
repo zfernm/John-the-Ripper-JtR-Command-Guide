@@ -19,6 +19,10 @@ Script `install.sh` ini adalah installer interaktif untuk mengatur semua kebutuh
 4. **Install Semua**  
    Menginstal semua kebutuhan sekaligus.
 
+4. **Install rockyou.txt**  
+   Mengunduh dan menyimpan wordlist rockyou.txt dari link
+   https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+
 ---
 ### Cara Menggunakan Installer
 1. Pastikan kamu memiliki akses terminal dengan hak akses root.  
@@ -35,14 +39,15 @@ Script `install.sh` ini adalah installer interaktif untuk mengatur semua kebutuh
 ### Menu Installer  
 Setelah menjalankan script, kamu akan melihat menu seperti berikut:  
 
-
+![Output](<Output_John_The_Ripper.png>)
 
 Masukkan angka sesuai opsi yang kamu inginkan, misalnya:
 - **1** untuk menginstal John the Ripper Jumbo.
 - **2** untuk menginstal Python dan script pendukung.
 - **3** untuk menginstal `libpcap-dev`.
 - **4** untuk menginstal semua komponen.
-- **5** untuk keluar dari installer.
+- **5** untuk mengunduh wordlist rockyou.txt.
+- **6** untuk keluar dari installer.
 
 ---
 ### Panduan Perintah John the Ripper (JtR)
