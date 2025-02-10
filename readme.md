@@ -21,7 +21,7 @@ Script `install.sh` ini adalah installer interaktif untuk mengatur semua kebutuh
 
 4. **Install rockyou.txt**  
    Mengunduh dan menyimpan wordlist rockyou.txt dari link
-   https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+   [rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
 
 ---
 ### Cara Menggunakan Installer
